@@ -90,7 +90,7 @@ function renderTweet(tweet) {
   const { text = '', likes = 0, retweets = 0, replies = 0, url = '', createdAt = '' } = tweet;
   
   // Split bilingual content
-  const { en, zh } = parseBilingual(text);
+  const { en, zh } = parseBilingual(tweet);
   
   // Format date
   const dateStr = createdAt ? formatDate(createdAt) : '';
@@ -120,37 +120,18 @@ function renderTweet(tweet) {
   `;
 }
 
-function parseBilingual(text) {
-  // Try to split by language - look for Chinese characters
-  const chineseRegex = /[\u4e00-\u9fa5]/;
-  const hasChinese = chineseRegex.test(text);
+function parseBilingual(tweet) {
+  const text = tweet.text || '';
+  const textZh = tweet.textZh || '';
   
-  if (hasChinese) {
-    // Split into English and Chinese parts
-    // Simple heuristic: find first Chinese char and split around it
-    let en = '', zh = '';
-    let foundChinese = false;
-    
-    const lines = text.split('\n');
-    for (const line of lines) {
-      if (!foundChinese && chineseRegex.test(line)) {
-        foundChinese = true;
-      }
-      if (!foundChinese) {
-        en += (en ? '\n' : '') + line;
-      } else {
-        zh += (zh ? '\n' : '') + line;
-      }
-    }
-    
-    // If no clear split, treat whole as bilingual
-    if (!en && zh) {
-      return { en: '', zh: text };
-    } else if (en && !zh) {
-      return { en: text, zh: '' };
-    }
-    
-    return { en: en.trim(), zh: zh.trim() };
+  if (textZh) {
+    return { en: text, zh: textZh };
+  }
+  
+  // Fallback: try to detect Chinese in text
+  const chineseRegex = /[\u4e00-\u9fa5]/;
+  if (chineseRegex.test(text)) {
+    return { en: '', zh: text };
   }
   
   return { en: text, zh: '' };
