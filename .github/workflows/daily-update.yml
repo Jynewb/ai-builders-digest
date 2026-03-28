@@ -1,0 +1,49 @@
+name: Daily Digest Update
+
+on:
+  schedule:
+    # Run at 23:50 UTC daily (7:50 AM Beijing time)
+    - cron: '50 23 * * *'
+  workflow_dispatch:
+    # Manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install dependencies
+        run: |
+          cd scripts
+          npm install
+          
+      - name: Generate digest
+        run: |
+          cd scripts
+          node generate-page.js
+        env:
+          # Optional: custom feed URL
+          FEED_X_URL: ${{ vars.FEED_X_URL || 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-x.json' }}
+          FEED_PODCASTS_URL: ${{ vars.FEED_PODCASTS_URL || 'https://raw.githubusercontent.com/zarazhangrui/follow-builders/main/feed-podcasts.json' }}
+          
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          
+          # Check if there are changes
+          if git diff --quiet data/digest.json; then
+            echo "No new content, skipping commit"
+          else
+            git add data/digest.json
+            git commit -m "Update digest $(date +%Y-%m-%d)"
+            git push
+          fi

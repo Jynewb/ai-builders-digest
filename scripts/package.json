@@ -1,0 +1,8 @@
+{
+  "name": "ai-builders-digest-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-page.js"
+  }
+}
