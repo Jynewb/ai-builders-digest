@@ -212,8 +212,6 @@ function markdownToHtml(text) {
   html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   // Links: [text](url)
   html = html.replace(/\[(.*?)\]\((https?:\/\/[^\s<>"]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
-  // 原文链接：https://url -> styled button link
-  html = html.replace(/原文链接：(https?:\/\/\S+)/g, '<a href="$1" target="_blank" rel="noopener" class="tweet-link">🔗 查看原文</a>');
   // Line breaks
   html = html.replace(/\n/g, '<br>');
   return html;
