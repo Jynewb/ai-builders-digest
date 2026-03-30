@@ -79,6 +79,7 @@ function renderDigest(data) {
         </div>
         
         ${builder.summary ? `<div class="builder-summary">${markdownToHtml(escapeHtml(builder.summary))}</div>` : ''}
+        ${builder.tweets.filter(t => isSubstantive(t)).map(tweet => renderTweet(tweet)).join('')}
       </section>
     `;
   });
