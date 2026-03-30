@@ -79,6 +79,7 @@ function renderDigest(data) {
         </div>
         
         ${builder.summary ? `<div class="builder-summary">${markdownToHtml(escapeHtml(builder.summary))}</div>` : ''}
+        ${builder.tweets.filter(t => isSubstantive(t)).map(tweet => renderTweet(tweet)).join('')}
       </section>
     `;
   });
@@ -115,6 +116,34 @@ function renderTweet(tweet) {
       </div>
     </article>
   `;
+}
+
+function isSubstantive(tweet) {
+  const text = tweet.text || '';
+  const textZh = tweet.textZh || '';
+  const displayText = textZh || text;
+  
+  // Skip very short tweets
+  if (displayText.length < 30) return false;
+  
+  // Skip pure retweets (no original content)
+  if (tweet.isQuote === false && (text.startsWith('RT @') || text.startsWith('"@'))) return false;
+  
+  // Skip engagement bait patterns
+  const lowValuePatterns = [
+    /^(wow|amazing|awesome|love this|congrats|thank you|welcome back|haha|lol|great)/i,
+    /congratulations/i,
+    /^(ty|thanks for (the|your))/i,
+  ];
+  for (const pattern of lowValuePatterns) {
+    if (pattern.test(displayText.trim())) return false;
+  }
+  
+  // Skip tweets that are just links with no commentary
+  const stripped = displayText.replace(/https?:\/\/\S+/g, '').trim();
+  if (stripped.length < 20) return false;
+  
+  return true;
 }
 
 function parseBilingual(tweet) {
