@@ -104,8 +104,8 @@ function renderTweet(tweet) {
   return `
     <article class="tweet-card">
       <div class="tweet-content">
-        ${en ? `<p class="tweet-text en">${autoLink(escapeHtml(en))}</p>` : ''}
         ${zh ? `<p class="tweet-text zh">${autoLink(escapeHtml(zh))}</p>` : ''}
+        ${en ? `<p class="tweet-text en">原文：${autoLink(escapeHtml(en))}</p>` : ''}
       </div>
       <div class="tweet-meta">
         <div class="tweet-stats">

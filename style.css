@@ -238,13 +238,21 @@ a:hover {
   color: var(--text-primary);
 }
 
-.tweet-text.en {
+.tweet-text.zh {
   color: var(--text-primary);
+  font-size: 1.05rem;
+  font-weight: 500;
+  line-height: 1.8;
+  margin-bottom: 0.6rem;
 }
 
-.tweet-text.zh {
+.tweet-text.en {
   color: var(--text-secondary);
-  font-size: 0.95rem;
+  font-size: 0.88rem;
+  line-height: 1.6;
+  border-left: 2px solid var(--text-secondary);
+  padding-left: 0.75rem;
+  opacity: 0.75;
 }
 
 .tweet-meta {
