@@ -145,6 +145,22 @@ a:hover {
   padding: 48px 32px;
 }
 
+/* ===== Summary Box ===== */
+.summary-box {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 28px 32px;
+  margin-bottom: 48px;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  color: rgba(255,255,255,0.85);
+}
+.summary-box p { margin: 0 0 12px 0; }
+.summary-box p:last-child { margin-bottom: 0; }
+.summary-box strong { color: #fff; }
+.summary-box a { color: #7dd3fc; }
+
 /* ===== Builder Card ===== */
 .builder-section {
   margin-bottom: 48px;

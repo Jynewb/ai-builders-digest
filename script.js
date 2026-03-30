@@ -40,7 +40,7 @@ async function loadDigest() {
 
 function renderDigest(data) {
   const container = document.getElementById('digestContainer');
-  const { builders = [], date = '', stats = {} } = data;
+  const { builders = [], date = '', stats = {}, summary = '' } = data;
   
   // Update stats
   const totalTweets = stats.totalTweets || builders.reduce((sum, b) => sum + (b.tweets?.length || 0), 0);
@@ -58,7 +58,13 @@ function renderDigest(data) {
     return;
   }
   
-  let html = `<p class="section-title">X / Twitter · ${date}</p>`;
+  // Show summary at top if available
+  let html = '';
+  if (summary) {
+    html += `<div class="summary-box">${markdownToHtml(summary)}</div>`;
+  }
+  
+  html += `<p class="section-title">X / Twitter · ${date}</p>`;
   
   builders.forEach(builder => {
     if (!builder.tweets || builder.tweets.length === 0) return;
@@ -177,4 +183,17 @@ function formatDate(dateStr) {
   } catch {
     return '';
   }
+}
+
+function markdownToHtml(text) {
+  if (!text) return '';
+  // Escape HTML first
+  let html = escapeHtml(text);
+  // Bold: **text**
+  html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+  // Links: [text](url)
+  html = html.replace(/\[(.*?)\]\((https?:\/\/[^\s<>"]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  // Line breaks
+  html = html.replace(/\n/g, '<br>');
+  return html;
 }
