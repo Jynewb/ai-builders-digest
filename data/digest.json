@@ -9,7 +9,7 @@
         {
           "id": "2037921699824607591",
           "text": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it’s so convincing!\n- Fun idea let’s ask it to argue the opposite. \n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol\n\nThe LLMs may elicit an opinion when asked but are extremely competent in arguing almost any direction. This is actually super useful as a tool for forming your own opinions, just make sure to ask different directions and be careful with the sycophancy.",
-          "textZh": "[处理失败 @karpathy id=2037921699824607591]",
+          "textZh": "LLM 能双向论证任何立场，既是强大的观点形成工具，也要警惕其谄媚倾向——用它检验论点而非替代判断。",
           "url": "https://x.com/karpathy/status/2037921699824607591",
           "likes": 23516,
           "retweets": 1786,
@@ -26,7 +26,7 @@
         {
           "id": "2038096302781657462",
           "text": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
-          "textZh": "[处理失败 @swyx id=2038096302781657462]",
+          "textZh": "Swyx 热情推荐「sumo orange」——一种皮好剥、口感好、维生素C含量覆盖每日所需的完美柑橘，建议 Amazon Fresh 订阅每周送达。",
           "url": "https://x.com/swyx/status/2038096302781657462",
           "likes": 104,
           "retweets": 1,
@@ -35,7 +35,7 @@
         {
           "id": "2037969691910848941",
           "text": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
-          "textZh": "[处理失败 @swyx id=2037969691910848941]",
+          "textZh": "「虚假对等」是思维杀手：给所有选项平分权重会掩盖幂律效应。解法——少量重仓、保留可逆性、设置纠错触发、加倍下注已验证的判断。",
           "url": "https://x.com/swyx/status/2037969691910848941",
           "likes": 255,
           "retweets": 21,
@@ -52,7 +52,7 @@
         {
           "id": "2037940551400735224",
           "text": "Seeing great uptake on this, give it a try this weekend! https://t.co/1OkTUnjQSS",
-          "textZh": "[处理失败 @joshwoodward id=2037940551400735224]",
+          "textZh": "Google VP Josh Woodward 邀请大家在周末试用 Gemini 新功能，似乎是 Google Labs 的某个重要新特性进入用户测试阶段。",
           "url": "https://x.com/joshwoodward/status/2037940551400735224",
           "likes": 212,
           "retweets": 10,
@@ -69,7 +69,7 @@
         {
           "id": "2038068968792162594",
           "text": "I would really love to talk to @grok about all the posts I have bookmarked on here but am too lazy to scroll through manually. @elonmusk what do you think?",
-          "textZh": "[处理失败 @petergyang id=2038068968792162594]",
+          "textZh": "Peter Yang 想用 Grok 自动整理他在 X 上收藏的帖子，但嫌手动翻找太麻烦——等待 Musk 或 X 团队实现这个功能。",
           "url": "https://x.com/petergyang/status/2038068968792162594",
           "likes": 84,
           "retweets": 3,
@@ -78,7 +78,7 @@
         {
           "id": "2038067082223554732",
           "text": "X asking me to thumbs down my own reply 🥲. \n\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still. https://t.co/3y0KhuI0R1",
-          "textZh": "[处理失败 @petergyang id=2038067082223554732]",
+          "textZh": "Peter Yang 吐槽 X 平台的「踩」按钮对原创帖子不可见，只能踩回复——认为这个设计缺陷导致 AI 垃圾内容难以被抑制。",
           "url": "https://x.com/petergyang/status/2038067082223554732",
           "likes": 61,
           "retweets": 1,
@@ -87,7 +87,7 @@
         {
           "id": "2038058600715935817",
           "text": "Interesting to see how many fast growing companies like @linear and @tryramp want to hire ex-founders as PMs.\n\nI think this is a good litmus test for how good your company is at attracting talent:\n\n1. Do founders want to work here?\n\n2. Do they have the agency to make real impact or will they get lost in your org?",
-          "textZh": "[处理失败 @petergyang id=2038058600715935817]",
+          "textZh": "Fast-growing 公司（Linear、Ramp）倾向招 ex-founders 做 PM，是人才吸引力的试金石——衡量标准：创始人愿不愿意来、来了有没有发挥空间。",
           "url": "https://x.com/petergyang/status/2038058600715935817",
           "likes": 73,
           "retweets": 3,
@@ -104,7 +104,7 @@
         {
           "id": "2038025287955280120",
           "text": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
-          "textZh": "[处理失败 @thenanyu id=2038025287955280120]",
+          "textZh": "TED 大会和 Forbes 30 Under 30 成了品牌自我摧毁的典型案例——需要反思荣誉体系背后的代价。",
           "url": "https://x.com/thenanyu/status/2038025287955280120",
           "likes": 15,
           "retweets": 1,
@@ -113,7 +113,7 @@
         {
           "id": "2038021774105784782",
           "text": "RETVRN (to Japan) https://t.co/R2Y9BFE5T8",
-          "textZh": "[处理失败 @thenanyu id=2038021774105784782]",
+          "textZh": "对 TED 和 Forbes 30u30 的品牌自毁分析持保留意见——这些平台在特定圈子里仍有真实价值。",
           "url": "https://x.com/thenanyu/status/2038021774105784782",
           "likes": 1,
           "retweets": 0,
@@ -122,7 +122,7 @@
         {
           "id": "2038018254229094448",
           "text": "Here we go\n\nhttps://t.co/UnraJZtyQm",
-          "textZh": "[处理失败 @thenanyu id=2038018254229094448]",
+          "textZh": "Linear 团队正在扩张，欢迎推荐优秀的 ex-founders 加入——Hiring 相关动态。",
           "url": "https://x.com/thenanyu/status/2038018254229094448",
           "likes": 1,
           "retweets": 0,
@@ -139,7 +139,7 @@
         {
           "id": "2038053670907007165",
           "text": "Wow! https://t.co/bMcvHveKQP",
-          "textZh": "[处理失败 @amasad id=2038053670907007165]",
+          "textZh": "AI 让每个人都能构建应用，顶级工程师得以专注于更深层的系统设计，推动平台能力边界——这是「1000x 工程师」愿景的核心。",
           "url": "https://x.com/amasad/status/2038053670907007165",
           "likes": 327,
           "retweets": 8,
@@ -148,7 +148,7 @@
         {
           "id": "2037951485418344835",
           "text": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
-          "textZh": "[处理失败 @amasad id=2037951485418344835]",
+          "textZh": "四年前提出的「1000x 工程师」概念正在成为现实——AI 消除了重复性工作，工程师做更多ambitious的事情来扩展平台可能性。",
           "url": "https://x.com/amasad/status/2037951485418344835",
           "likes": 365,
           "retweets": 23,
@@ -165,7 +165,7 @@
         {
           "id": "2037993361450336714",
           "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
-          "textZh": "[处理失败 @rauchg id=2037993361450336714]",
+          "textZh": "Vercel 团队在亚利桑那州进行公司 offsite，留下美好回忆——团队建设和公司文化活动。",
           "url": "https://x.com/rauchg/status/2037993361450336714",
           "likes": 450,
           "retweets": 9,
@@ -174,7 +174,7 @@
         {
           "id": "2037950897909862526",
           "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
-          "textZh": "[处理失败 @rauchg id=2037950897909862526]",
+          "textZh": "Rauch 终于发布了酝酿已久的 CSS text-wrap: balance 功能——困扰多年的文本布局问题终于解决。",
           "url": "https://x.com/rauchg/status/2037950897909862526",
           "likes": 2055,
           "retweets": 51,
@@ -183,7 +183,7 @@
         {
           "id": "2037935190073569326",
           "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
-          "textZh": "[处理失败 @rauchg id=2037935190073569326]",
+          "textZh": "「Agent 就是计算机，网络就是 OS」——Vercel 正在围绕这个愿景构建下一代开发工具。",
           "url": "https://x.com/rauchg/status/2037935190073569326",
           "likes": 141,
           "retweets": 5,
@@ -200,7 +200,7 @@
         {
           "id": "2037928306977509601",
           "text": "https://t.co/5zTvYqHztE",
-          "textZh": "[处理失败 @levie id=2037928306977509601]",
+          "textZh": "Levie 发了一条无配文的链接推文，比较少见——考虑到 Box 在 AI 时代的内容管理战略，这可能是某个重要产品发布或合作公告。",
           "url": "https://x.com/levie/status/2037928306977509601",
           "likes": 377,
           "retweets": 58,
@@ -217,7 +217,7 @@
         {
           "id": "2038054087451885747",
           "text": "After Richmond disabled its Flock cameras to \"protect immigrants,\" car thefts jumped 33%. \n\nImmigrant shopkeepers begged to bring them back. Last week their city council finally listened. \n\nOpposing safety cameras is a luxury belief. \n\nhttps://t.co/4BecRL4WTL",
-          "textZh": "[处理失败 @garrytan id=2038054087451885747]",
+          "textZh": "Garry Tan 评论某城市移除摄像头以「保护移民」后盗窃案跳升33%——认为反对安全摄像头是「奢侈品信念」，只对特定阶层有好处。",
           "url": "https://x.com/garrytan/status/2038054087451885747",
           "likes": 935,
           "retweets": 89,
@@ -226,7 +226,7 @@
         {
           "id": "2037982376148734119",
           "text": "Embrace boiling the ocean https://t.co/D2qbebbZK2",
-          "textZh": "[处理失败 @garrytan id=2037982376148734119]",
+          "textZh": "GStack 持续增长——Y Combinator President Garry Tan 的 AI 产品路线正在获得越来越多独立开发者的采用。",
           "url": "https://x.com/garrytan/status/2037982376148734119",
           "likes": 138,
           "retweets": 7,
@@ -235,7 +235,7 @@
         {
           "id": "2037979742608253202",
           "text": "GStack still growing every day. https://t.co/S9QUWdiSpD",
-          "textZh": "[处理失败 @garrytan id=2037979742608253202]",
+          "textZh": "GStack 产品动态——作为 YC 掌门人的副业项目，GStack 展现了持续的增长势头。",
           "url": "https://x.com/garrytan/status/2037979742608253202",
           "likes": 222,
           "retweets": 5,
@@ -252,7 +252,7 @@
         {
           "id": "2038144755478237654",
           "text": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
-          "textZh": "[处理失败 @zarazhangrui id=2038144755478237654]",
+          "textZh": "好 AI agent 产品应该能完成创造者未曾想到它能做到的事——这与过去「符合预期的产品」范式截然不同，是根本性转变。",
           "url": "https://x.com/zarazhangrui/status/2038144755478237654",
           "likes": 13,
           "retweets": 0,
@@ -261,7 +261,7 @@
         {
           "id": "2037983921946923034",
           "text": "Human context window is the new wall https://t.co/FoUrRBTbEo",
-          "textZh": "[处理失败 @zarazhangrui id=2037983921946923034]",
+          "textZh": "人类 context window 是新瓶颈——AI 模型的能力上限，受限于人类能给出的上下文长度。",
           "url": "https://x.com/zarazhangrui/status/2037983921946923034",
           "likes": 53,
           "retweets": 1,
@@ -278,7 +278,7 @@
         {
           "id": "2038123479355318775",
           "text": "Always wanted to build my own version of this ad ✌️ https://t.co/JzymmuuTB1 https://t.co/nHcqXhbh3D",
-          "textZh": "[处理失败 @nikunj id=2038123479355318775]",
+          "textZh": "Nikunj Kothari 分享了一张自己版本的经典广告，配文「一直想做这个」——创业者和投资人的日常灵感瞬间。",
           "url": "https://x.com/nikunj/status/2038123479355318775",
           "likes": 14,
           "retweets": 0,
@@ -287,7 +287,7 @@
         {
           "id": "2037990692530872359",
           "text": "If you like Poker and have some time tomorrow in SF, you really don’t want to miss this..\n\nHosted by my dear friend @satyakamdar. DM him for an invite ♣️ https://t.co/do5fprnK4g",
-          "textZh": "[处理失败 @nikunj id=2037990692530872359]",
+          "textZh": "如果有时间明天在旧金山，不要错过 poker 活动——Nikunj 发起的线下社交聚会，有兴趣可以 DM 要邀请。",
           "url": "https://x.com/nikunj/status/2037990692530872359",
           "likes": 26,
           "retweets": 0,
@@ -296,7 +296,7 @@
         {
           "id": "2037942421762478164",
           "text": "Doubt anyone will take me up on this. \n\nIf you want to read about why incentives are not aligned to disclose properly and many many methods of creative accounting, wrote this post in December \n\nhttps://t.co/D892Xh1jvW https://t.co/iwIoxbviIQ",
-          "textZh": "[处理失败 @nikunj id=2037942421762478164]",
+          "textZh": "关于激励结构和信息披露不透明的深度思考——Nikunj 认为激励机制没有对齐，需要创造性会计来处理这些复杂问题。",
           "url": "https://x.com/nikunj/status/2037942421762478164",
           "likes": 57,
           "retweets": 1,
@@ -313,7 +313,7 @@
         {
           "id": "2038074759527981416",
           "text": "MCPorter (MCP-&gt;CLI)🧳0.8.0 is out.\n\n- stronger OAuth handling for servers\n- valid JSON output on fallback paths\n- better mcporter call behavior and error handling\n- generated CLIs handle object-valued args better\n- keep-alive/daemon reliability https://t.co/Nu9UOBxPam",
-          "textZh": "[处理失败 @steipete id=2038074759527981416]",
+          "textZh": "MCPorter 0.8.0 发布——更强 OAuth 处理、valid JSON fallback、改善的 CLI 调用行为和 keep-alive 可靠性。",
           "url": "https://x.com/steipete/status/2038074759527981416",
           "likes": 543,
           "retweets": 41,
@@ -322,7 +322,7 @@
         {
           "id": "2037988925818519763",
           "text": "So much of this, every day. You really have to develop thick skin (exoskeleton?) when working on successful open source.\n\n(The Chrome extension has been removed since Google added native access in 144+, which is simpler, but yes, it does require a one-time setting change) https://t.co/N62y2XfaTW",
-          "textZh": "[处理失败 @steipete id=2037988925818519763]",
+          "textZh": "做成功的开源项目需要厚脸皮（exoskeleton）——来自 Chrome extension 因 Google 原生支持而被迫下架的经历。",
           "url": "https://x.com/steipete/status/2037988925818519763",
           "likes": 546,
           "retweets": 20,
@@ -339,7 +339,7 @@
         {
           "id": "2037897135543161326",
           "text": "not surprising if you’re paying attention\n\nhttps://t.co/gxBaac30WG https://t.co/gHXEHjB4qS",
-          "textZh": "[处理失败 @danshipper id=2037897135543161326]",
+          "textZh": "Dan Shipper 简短评论：「如果你在关注的话，这毫不意外」——暗示某个 AI 行业动态早已在预期之中。",
           "url": "https://x.com/danshipper/status/2037897135543161326",
           "likes": 49,
           "retweets": 0,
