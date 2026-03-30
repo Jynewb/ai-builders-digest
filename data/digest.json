@@ -1,6 +1,5 @@
 {
   "date": "2026年3月30日",
-  "summary": "**Andrej Karpathy**：用 LLM 花 4 小时精心打磨的论点，LLM 能从反面完全拆解，说明它在双向论证上都极为强大，是形成观点的好工具——但要警惕谄媚性认同。\nhttps://x.com/karpathy/status/2037921699824607591\n\n**Swyx**：警告「虚假对等」（False equivalence）的陷阱：给 A、B、C、D 各项平分精力，而现实是幂律会放大差异，「第一条 devtools 创业就死在这上面」，要在少量事项上重仓但不放弃可逆性，判断正确时尽早加倍下注。\nhttps://x.com/swyx/status/2037969691910848941\n\n**Amjad Masad**：阐述他四年前提出的「1000x 工程师」概念：AI 让每个人都能构建应用，最优秀的工程师得以专注更深层，推动平台本身扩展可能性边界。\nhttps://x.com/amasad/status/2037923881942667264\n\n**Guillermo Rauch**：提出「网络 agent 就是计算机」，以及 Vercel 终于交付了他梦寐以求的文本布局功能。\nhttps://x.com/rauchg/status/2037895327671067100\n\n**Zara Zhang**：提出 agent 产品好坏的标准：它能完成创造者未曾想到能做到的事情，而非只是按预期执行。\nhttps://x.com/zara_zhangrui/status/2037901234567890123",
   "builders": [
     {
       "name": "Andrej Karpathy",
@@ -9,8 +8,8 @@
       "tweets": [
         {
           "id": "2037921699824607591",
-          "text": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it's so convincing!\n- Fun idea let's ask it to argue the opposite. \n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol\n\nThe LLMs may elicit an opinion when asked but are extremely competent in arguing almost any direction. This is actually super useful as a tool for forming your own opinions, just make sure to ask different directions and be careful with the sycophancy.",
-          "textZh": "用 LLM 花 4 小时精心打磨的论点，LLM 能从反面完全拆解，说明它在双向论证上都极为强大，是形成观点的好工具——但要警惕谄媚性认同。",
+          "text": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it’s so convincing!\n- Fun idea let’s ask it to argue the opposite. \n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol\n\nThe LLMs may elicit an opinion when asked but are extremely competent in arguing almost any direction. This is actually super useful as a tool for forming your own opinions, just make sure to ask different directions and be careful with the sycophancy.",
+          "textZh": "[处理失败 @karpathy id=2037921699824607591]",
           "url": "https://x.com/karpathy/status/2037921699824607591",
           "likes": 23516,
           "retweets": 1786,
@@ -21,12 +20,21 @@
     {
       "name": "Swyx",
       "handle": "swyx",
-      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.",
+      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
       "tweets": [
         {
+          "id": "2038096302781657462",
+          "text": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
+          "textZh": "[处理失败 @swyx id=2038096302781657462]",
+          "url": "https://x.com/swyx/status/2038096302781657462",
+          "likes": 104,
+          "retweets": 1,
+          "replies": 21
+        },
+        {
           "id": "2037969691910848941",
-          "text": "False equivalence is a trap I've been consciously steering away from in my work the last 5 years... Rules: Carefully bet on a very small set of things. Don't hedge, but keep reversibility. Set triggers/levels to monitor if you are wrong. Set tests to DOUBLE DOWN EARLY if you are more right than you thought.",
-          "textZh": "警告「虚假对等」（False equivalence）的陷阱：给 A、B、C、D 各项平分精力，而现实是幂律会放大差异，要在少量事项上重仓但不放弃可逆性，判断正确时尽早加倍下注。",
+          "text": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
+          "textZh": "[处理失败 @swyx id=2037969691910848941]",
           "url": "https://x.com/swyx/status/2037969691910848941",
           "likes": 255,
           "retweets": 21,
@@ -35,58 +43,303 @@
       ]
     },
     {
-      "name": "Amjad Masad",
-      "handle": "amasad",
-      "bio": "CEO @replit. previously @facebook, @kloudiq. I make tools for builders.",
+      "name": "Josh Woodward",
+      "handle": "joshwoodward",
+      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
       "tweets": [
         {
-          "id": "2037923881942667264",
-          "text": "The 1000x engineer concept I wrote about four years ago is materializing... the best engineers are becoming more productive while AI handles the scaffolding, enabling them to focus on deeper system design.",
-          "textZh": "阐述他四年前提出的「1000x 工程师」概念：AI 让每个人都能构建应用，最优秀的工程师得以专注更深层，推动平台本身扩展可能性边界。",
-          "url": "https://x.com/amasad/status/2037923881942667264",
-          "likes": 892,
-          "retweets": 124,
-          "replies": 89
+          "id": "2037940551400735224",
+          "text": "Seeing great uptake on this, give it a try this weekend! https://t.co/1OkTUnjQSS",
+          "textZh": "[处理失败 @joshwoodward id=2037940551400735224]",
+          "url": "https://x.com/joshwoodward/status/2037940551400735224",
+          "likes": 212,
+          "retweets": 10,
+          "replies": 22
+        }
+      ]
+    },
+    {
+      "name": "Peter Yang",
+      "handle": "petergyang",
+      "bio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
+      "tweets": [
+        {
+          "id": "2038068968792162594",
+          "text": "I would really love to talk to @grok about all the posts I have bookmarked on here but am too lazy to scroll through manually. @elonmusk what do you think?",
+          "textZh": "[处理失败 @petergyang id=2038068968792162594]",
+          "url": "https://x.com/petergyang/status/2038068968792162594",
+          "likes": 84,
+          "retweets": 3,
+          "replies": 17
+        },
+        {
+          "id": "2038067082223554732",
+          "text": "X asking me to thumbs down my own reply 🥲. \n\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still. https://t.co/3y0KhuI0R1",
+          "textZh": "[处理失败 @petergyang id=2038067082223554732]",
+          "url": "https://x.com/petergyang/status/2038067082223554732",
+          "likes": 61,
+          "retweets": 1,
+          "replies": 17
+        },
+        {
+          "id": "2038058600715935817",
+          "text": "Interesting to see how many fast growing companies like @linear and @tryramp want to hire ex-founders as PMs.\n\nI think this is a good litmus test for how good your company is at attracting talent:\n\n1. Do founders want to work here?\n\n2. Do they have the agency to make real impact or will they get lost in your org?",
+          "textZh": "[处理失败 @petergyang id=2038058600715935817]",
+          "url": "https://x.com/petergyang/status/2038058600715935817",
+          "likes": 73,
+          "retweets": 3,
+          "replies": 5
+        }
+      ]
+    },
+    {
+      "name": "Nan Yu",
+      "handle": "thenanyu",
+      "bio": "head of product @linear",
+      "tweets": [
+        {
+          "id": "2038025287955280120",
+          "text": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
+          "textZh": "[处理失败 @thenanyu id=2038025287955280120]",
+          "url": "https://x.com/thenanyu/status/2038025287955280120",
+          "likes": 15,
+          "retweets": 1,
+          "replies": 0
+        },
+        {
+          "id": "2038021774105784782",
+          "text": "RETVRN (to Japan) https://t.co/R2Y9BFE5T8",
+          "textZh": "[处理失败 @thenanyu id=2038021774105784782]",
+          "url": "https://x.com/thenanyu/status/2038021774105784782",
+          "likes": 1,
+          "retweets": 0,
+          "replies": 0
+        },
+        {
+          "id": "2038018254229094448",
+          "text": "Here we go\n\nhttps://t.co/UnraJZtyQm",
+          "textZh": "[处理失败 @thenanyu id=2038018254229094448]",
+          "url": "https://x.com/thenanyu/status/2038018254229094448",
+          "likes": 1,
+          "retweets": 0,
+          "replies": 1
+        }
+      ]
+    },
+    {
+      "name": "Amjad Masad",
+      "handle": "amasad",
+      "bio": "ceo @replit. civilizationist",
+      "tweets": [
+        {
+          "id": "2038053670907007165",
+          "text": "Wow! https://t.co/bMcvHveKQP",
+          "textZh": "[处理失败 @amasad id=2038053670907007165]",
+          "url": "https://x.com/amasad/status/2038053670907007165",
+          "likes": 327,
+          "retweets": 8,
+          "replies": 5
+        },
+        {
+          "id": "2037951485418344835",
+          "text": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
+          "textZh": "[处理失败 @amasad id=2037951485418344835]",
+          "url": "https://x.com/amasad/status/2037951485418344835",
+          "likes": 365,
+          "retweets": 23,
+          "replies": 51
         }
       ]
     },
     {
       "name": "Guillermo Rauch",
       "handle": "rauchg",
-      "bio": "CEO @Vercel. I teach people how to build at scale.",
+      "bio": "@vercel CEO",
       "tweets": [
         {
-          "id": "2037895327671067100",
-          "text": "The agent is the computer. The network is the OS. We've been building towards this for years.",
-          "textZh": "提出「网络 agent 就是计算机」，以及 Vercel 终于交付了他梦寐以求的文本布局功能。",
-          "url": "https://x.com/rauchg/status/2037895327671067100",
-          "likes": 1654,
-          "retweets": 312,
-          "replies": 156
+          "id": "2037993361450336714",
+          "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
+          "textZh": "[处理失败 @rauchg id=2037993361450336714]",
+          "url": "https://x.com/rauchg/status/2037993361450336714",
+          "likes": 450,
+          "retweets": 9,
+          "replies": 29
+        },
+        {
+          "id": "2037950897909862526",
+          "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
+          "textZh": "[处理失败 @rauchg id=2037950897909862526]",
+          "url": "https://x.com/rauchg/status/2037950897909862526",
+          "likes": 2055,
+          "retweets": 51,
+          "replies": 56
+        },
+        {
+          "id": "2037935190073569326",
+          "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
+          "textZh": "[处理失败 @rauchg id=2037935190073569326]",
+          "url": "https://x.com/rauchg/status/2037935190073569326",
+          "likes": 141,
+          "retweets": 5,
+          "replies": 36
+        }
+      ]
+    },
+    {
+      "name": "Aaron Levie",
+      "handle": "levie",
+      "bio": "ceo @box - your business lives in content. unleash it with AI",
+      "tweets": [
+        {
+          "id": "2037928306977509601",
+          "text": "https://t.co/5zTvYqHztE",
+          "textZh": "[处理失败 @levie id=2037928306977509601]",
+          "url": "https://x.com/levie/status/2037928306977509601",
+          "likes": 377,
+          "retweets": 58,
+          "replies": 23
+        }
+      ]
+    },
+    {
+      "name": "Garry Tan",
+      "handle": "garrytan",
+      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
+      "tweets": [
+        {
+          "id": "2038054087451885747",
+          "text": "After Richmond disabled its Flock cameras to \"protect immigrants,\" car thefts jumped 33%. \n\nImmigrant shopkeepers begged to bring them back. Last week their city council finally listened. \n\nOpposing safety cameras is a luxury belief. \n\nhttps://t.co/4BecRL4WTL",
+          "textZh": "[处理失败 @garrytan id=2038054087451885747]",
+          "url": "https://x.com/garrytan/status/2038054087451885747",
+          "likes": 935,
+          "retweets": 89,
+          "replies": 36
+        },
+        {
+          "id": "2037982376148734119",
+          "text": "Embrace boiling the ocean https://t.co/D2qbebbZK2",
+          "textZh": "[处理失败 @garrytan id=2037982376148734119]",
+          "url": "https://x.com/garrytan/status/2037982376148734119",
+          "likes": 138,
+          "retweets": 7,
+          "replies": 19
+        },
+        {
+          "id": "2037979742608253202",
+          "text": "GStack still growing every day. https://t.co/S9QUWdiSpD",
+          "textZh": "[处理失败 @garrytan id=2037979742608253202]",
+          "url": "https://x.com/garrytan/status/2037979742608253202",
+          "likes": 222,
+          "retweets": 5,
+          "replies": 42
         }
       ]
     },
     {
       "name": "Zara Zhang",
-      "handle": "zara_zhangrui",
-      "bio": "Writer and researcher. Author of The Intelligence Stack.",
+      "handle": "zarazhangrui",
+      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
       "tweets": [
         {
-          "id": "2037901234567890123",
-          "text": "What separates a good AI agent from a great one: it can do things the creator didn't think it could do.",
-          "textZh": "提出 agent 产品好坏的标准：它能完成创造者未曾想到能做到的事情，而非只是按预期执行。",
-          "url": "https://x.com/zara_zhangrui/status/2037901234567890123",
-          "likes": 423,
-          "retweets": 67,
-          "replies": 34
+          "id": "2038144755478237654",
+          "text": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
+          "textZh": "[处理失败 @zarazhangrui id=2038144755478237654]",
+          "url": "https://x.com/zarazhangrui/status/2038144755478237654",
+          "likes": 13,
+          "retweets": 0,
+          "replies": 5
+        },
+        {
+          "id": "2037983921946923034",
+          "text": "Human context window is the new wall https://t.co/FoUrRBTbEo",
+          "textZh": "[处理失败 @zarazhangrui id=2037983921946923034]",
+          "url": "https://x.com/zarazhangrui/status/2037983921946923034",
+          "likes": 53,
+          "retweets": 1,
+          "replies": 17
+        }
+      ]
+    },
+    {
+      "name": "Nikunj Kothari",
+      "handle": "nikunj",
+      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
+      "tweets": [
+        {
+          "id": "2038123479355318775",
+          "text": "Always wanted to build my own version of this ad ✌️ https://t.co/JzymmuuTB1 https://t.co/nHcqXhbh3D",
+          "textZh": "[处理失败 @nikunj id=2038123479355318775]",
+          "url": "https://x.com/nikunj/status/2038123479355318775",
+          "likes": 14,
+          "retweets": 0,
+          "replies": 0
+        },
+        {
+          "id": "2037990692530872359",
+          "text": "If you like Poker and have some time tomorrow in SF, you really don’t want to miss this..\n\nHosted by my dear friend @satyakamdar. DM him for an invite ♣️ https://t.co/do5fprnK4g",
+          "textZh": "[处理失败 @nikunj id=2037990692530872359]",
+          "url": "https://x.com/nikunj/status/2037990692530872359",
+          "likes": 26,
+          "retweets": 0,
+          "replies": 1
+        },
+        {
+          "id": "2037942421762478164",
+          "text": "Doubt anyone will take me up on this. \n\nIf you want to read about why incentives are not aligned to disclose properly and many many methods of creative accounting, wrote this post in December \n\nhttps://t.co/D892Xh1jvW https://t.co/iwIoxbviIQ",
+          "textZh": "[处理失败 @nikunj id=2037942421762478164]",
+          "url": "https://x.com/nikunj/status/2037942421762478164",
+          "likes": 57,
+          "retweets": 1,
+          "replies": 3
+        }
+      ]
+    },
+    {
+      "name": "Peter Steinberger",
+      "handle": "steipete",
+      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
+      "tweets": [
+        {
+          "id": "2038074759527981416",
+          "text": "MCPorter (MCP-&gt;CLI)🧳0.8.0 is out.\n\n- stronger OAuth handling for servers\n- valid JSON output on fallback paths\n- better mcporter call behavior and error handling\n- generated CLIs handle object-valued args better\n- keep-alive/daemon reliability https://t.co/Nu9UOBxPam",
+          "textZh": "[处理失败 @steipete id=2038074759527981416]",
+          "url": "https://x.com/steipete/status/2038074759527981416",
+          "likes": 543,
+          "retweets": 41,
+          "replies": 23
+        },
+        {
+          "id": "2037988925818519763",
+          "text": "So much of this, every day. You really have to develop thick skin (exoskeleton?) when working on successful open source.\n\n(The Chrome extension has been removed since Google added native access in 144+, which is simpler, but yes, it does require a one-time setting change) https://t.co/N62y2XfaTW",
+          "textZh": "[处理失败 @steipete id=2037988925818519763]",
+          "url": "https://x.com/steipete/status/2037988925818519763",
+          "likes": 546,
+          "retweets": 20,
+          "replies": 100
+        }
+      ]
+    },
+    {
+      "name": "Dan Shipper",
+      "handle": "danshipper",
+      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
+      "tweets": [
+        {
+          "id": "2037897135543161326",
+          "text": "not surprising if you’re paying attention\n\nhttps://t.co/gxBaac30WG https://t.co/gHXEHjB4qS",
+          "textZh": "[处理失败 @danshipper id=2037897135543161326]",
+          "url": "https://x.com/danshipper/status/2037897135543161326",
+          "likes": 49,
+          "retweets": 0,
+          "replies": 4
         }
       ]
     }
   ],
   "podcasts": [],
   "stats": {
-    "totalTweets": 5,
-    "totalBuilders": 5,
+    "totalTweets": 27,
+    "totalBuilders": 13,
     "totalPodcasts": 0
   }
 }
