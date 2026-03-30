@@ -79,7 +79,6 @@ function renderDigest(data) {
         </div>
         
         ${builder.summary ? `<div class="builder-summary">${markdownToHtml(escapeHtml(builder.summary))}</div>` : ''}
-        ${builder.tweets.map(tweet => renderTweet(tweet)).join('')}
       </section>
     `;
   });
