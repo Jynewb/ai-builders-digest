@@ -40,7 +40,7 @@ async function loadDigest() {
 
 function renderDigest(data) {
   const container = document.getElementById('digestContainer');
-  const { builders = [], date = '', stats = {}, summary = '' } = data;
+  const { builders = [], date = '', stats = {} } = data;
   
   // Update stats
   const totalTweets = stats.totalTweets || builders.reduce((sum, b) => sum + (b.tweets?.length || 0), 0);
@@ -58,13 +58,7 @@ function renderDigest(data) {
     return;
   }
   
-  // Show summary at top if available
-  let html = '';
-  if (summary) {
-    html += `<div class="summary-box">${markdownToHtml(summary)}</div>`;
-  }
-  
-  html += `<p class="section-title">X / Twitter · ${date}</p>`;
+  let html = `<p class="section-title">X / Twitter · ${date}</p>`;
   
   builders.forEach(builder => {
     if (!builder.tweets || builder.tweets.length === 0) return;
@@ -93,12 +87,10 @@ function renderDigest(data) {
 }
 
 function renderTweet(tweet) {
-  const { text = '', likes = 0, retweets = 0, replies = 0, url = '', createdAt = '' } = tweet;
+  const { text = '', textZh = '', likes = 0, retweets = 0, replies = 0, url = '', createdAt = '' } = tweet;
   
-  // Split bilingual content
-  const { en, zh } = parseBilingual(tweet);
-  
-  // Format date
+  // Chinese priority: show textZh if available, else English
+  const displayText = textZh || text;
   const dateStr = createdAt ? formatDate(createdAt) : '';
   
   // SVG icons
@@ -110,8 +102,7 @@ function renderTweet(tweet) {
   return `
     <article class="tweet-card">
       <div class="tweet-content">
-        ${zh ? `<p class="tweet-text zh">${autoLink(escapeHtml(zh))}</p>` : ''}
-        ${en ? `<p class="tweet-text en">原文：${autoLink(escapeHtml(en))}</p>` : ''}
+        <p class="tweet-text">${autoLink(escapeHtml(displayText))}</p>
       </div>
       <div class="tweet-meta">
         <div class="tweet-stats">
