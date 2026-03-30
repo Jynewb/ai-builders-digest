@@ -192,6 +192,20 @@ a:hover {
   font-weight: 500;
 }
 
+.builder-summary {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text-primary);
+}
+.builder-summary p { margin: 0 0 10px 0; }
+.builder-summary p:last-child { margin-bottom: 0; }
+.builder-summary strong { color: var(--accent-cyan); }
+
 /* ===== Tweet Card ===== */
 .tweet-card {
   background: var(--bg-card);
