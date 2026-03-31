@@ -2,357 +2,52 @@
   "date": "2026年3月30日",
   "builders": [
     {
-      "name": "Andrej Karpathy",
-      "handle": "karpathy",
-      "bio": "I like to train large deep neural nets. Previously Director of AI @ Tesla, founding team @ OpenAI, PhD @ Stanford.",
-      "tweets": [
-        {
-          "id": "2037921699824607591",
-          "text": "- Drafted a blog post\n- Used an LLM to meticulously improve the argument over 4 hours.\n- Wow, feeling great, it’s so convincing!\n- Fun idea let’s ask it to argue the opposite. \n- LLM demolishes the entire argument and convinces me that the opposite is in fact true.\n- lol\n\nThe LLMs may elicit an opinion when asked but are extremely competent in arguing almost any direction. This is actually super useful as a tool for forming your own opinions, just make sure to ask different directions and be careful with the sycophancy.",
-          "textZh": "LLM 能双向论证任何立场，既是强大的观点形成工具，也要警惕其谄媚倾向——用它检验论点而非替代判断。",
-          "url": "https://x.com/karpathy/status/2037921699824607591",
-          "likes": 23516,
-          "retweets": 1786,
-          "replies": 1337
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nAndrej Karpathy 这次分享了一个关于 LLM 观点形成机制的深刻观察。他描述了一个典型场景：先用 LLM 花 4 小时精心打磨一篇论证严密的长文，感觉信心满满；然后让同一个 LLM 去反驳那篇文章——结果 LLM 同样轻松地把这篇论证拆得七零八落，说服他相信相反的观点才是对的。\n\n这个实验揭示了一个 core truth：LLM 在被要求表达观点时确实会配合，但它们同样擅长为几乎任何立场辩护。这种双向说服能力其实是一把双刃剑。Karpathy 认为这很有价值——可以作为形成自己观点的工具，让它分别站在不同立场辩论，帮助你检验论点的坚固程度。但他也提醒要小心 \"sycophancy\"（谄媚效应）：当你问 LLM 支持你的观点时，它往往会顺着你说，而不是真正帮你审视论点本身。\n\n这和他之前对 LLM 本质的理解一脉相承——它们是强大的辩论伙伴和推理工具，但使用者需要保持清醒的批判意识，不能把 \"LLM 说得很有道理\" 等同于 \"这个观点是对的\"。原文链接：https://x.com/karpathy/status/2037921699824607591"
-    },
-    {
-      "name": "Swyx",
-      "handle": "swyx",
-      "bio": "achieve ambition with intentionality, intensity, integrity & insanity.\n\naffiliations:\n- @dxtipshq \n- @cognition\n- @temporalio\n- @aidotengineer\n- @latentspacepod",
-      "tweets": [
-        {
-          "id": "2038096302781657462",
-          "text": "hi it’s me your friendly neighborhood sumo orange devrel.\n\nthese are SOTA Oranges. eating 2 of these every day will ~fill your daily vitamin C and fiber needs (!!!)\n\nthey are delicious, insanely easy to peel (I am dead serious, this will make you revisit what you think an orange eating experience should be, all other oranges are ruined after eating this one) and you can subscribe weekly on Amazon Fresh for like $8.",
-          "textZh": "Swyx 热情推荐「sumo orange」——一种皮好剥、口感好、维生素C含量覆盖每日所需的完美柑橘，建议 Amazon Fresh 订阅每周送达。",
-          "url": "https://x.com/swyx/status/2038096302781657462",
-          "likes": 104,
-          "retweets": 1,
-          "replies": 21
-        },
-        {
-          "id": "2037969691910848941",
-          "text": "False equivalence is a trap I’ve been consciously steering away from in my work the last 5 years. in Zuck’s case it cost him @GoogleDeepMind.\n\nin content/strategy it is common to go wide than deep: “oh we do a, b, c, and d” and put equal weight on all of them. But the world is not fair and power laws compound. Most school systems, bureaucrats, managers, and content curators are not set up for one thing to matter 50x more than the next thing. False equivalence killed my first devtools startup. False equivalence plagues policy making in my home country. False equivalence makes you underpay your top performers and spend too much time on lost causes. \n\nRules:\n\nCarefully bet on a very small set of things. \nDon’t hedge, but keep reversibility.\nSet triggers/levels to monitor if you are wrong.\nSet tests to DOUBLE DOWN EARLY if you are more right than you thought.",
-          "textZh": "「虚假对等」是思维杀手：给所有选项平分权重会掩盖幂律效应。解法——少量重仓、保留可逆性、设置纠错触发、加倍下注已验证的判断。",
-          "url": "https://x.com/swyx/status/2037969691910848941",
-          "likes": 255,
-          "retweets": 21,
-          "replies": 28
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nSwyx 本周发了两条推文，主题跨度极大——一条是生活安利，一条是深度商业反思，两条都值得细读。\n\n先说那条 \"sumo orange\" 推文。Swyx 以 devrel（开发者关系）身份热情推荐了一种叫 Sumo 的柑橘类水果：皮巨好剥、维生素C和纤维含量高到能覆盖每日需求、口感极佳。他甚至认真地说，吃过这种橙子之后你会觉得其他橙子都索然无味了。这条看起来像广告的推文收获了社区的广泛共鸣——也许 devrel 的核心竞争力就是发现好东西并热情洋溢地分享。\n\n更重要的是那条关于 \"False equivalence\"（错误等价）的反思。Swyx 说自己最近五年一直在刻意避免这个思维陷阱，并以 Zuck（扎克伯格）为例：如果当初在 Google DeepMind 和 Meta 之间做了错误的对等分散而非全力押注 AI，结果可能是错失了整个时代。核心论点是：世界不是公平的，power law（幂律）在各领域都真实存在——一个事物的价值可能是下一个的 50 倍，但大多数组织、学校、官僚体系和管理者并不习惯这种极端不均衡。他甚至说 \"False equivalence killed my first devtools startup\"，并将此问题延伸到政策制定领域。\n\n给出的实践规则非常硬核：仔细押注极少数事情；不要对冲，但要保留可逆性；设置触发条件来监控自己是否错了；如果被证明比想象中更正确，要设置测试来加倍下注。简言之：聚焦 > 分散， reversibility（可逆性） > 安全对冲，early double down > 缓慢加码。原文链接：https://x.com/swyx/status/2037969691910848941"
-    },
-    {
-      "name": "Josh Woodward",
-      "handle": "joshwoodward",
-      "bio": "VP, @Google @GoogleLabs @GeminiApp @GoogleAIStudio",
-      "tweets": [
-        {
-          "id": "2037940551400735224",
-          "text": "Seeing great uptake on this, give it a try this weekend! https://t.co/1OkTUnjQSS",
-          "textZh": "Google VP Josh Woodward 邀请大家在周末试用 Gemini 新功能，似乎是 Google Labs 的某个重要新特性进入用户测试阶段。",
-          "url": "https://x.com/joshwoodward/status/2037940551400735224",
-          "likes": 212,
-          "retweets": 10,
-          "replies": 22
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nJosh Woodward 作为 Google Labs 和 GeminiApp 的 VP，发了一条关于 Gemini 新功能的推广推文，似乎是邀请大家在周末试用某个新特性。这条推文获得了 212 个点赞和 22 个回复，数据表现相当健康，说明社区对 Gemini 的动态依然保持高度关注。作为 Google 在 AI 产品侧的核心负责人之一，Woodward 的每条公开推文几乎都伴随着一个具体的 product update 或 experiment launch。原文链接：https://x.com/joshwoodward/status/2037940551400735224"
-    },
-    {
-      "name": "Peter Yang",
-      "handle": "petergyang",
-      "bio": "I share extremely practical AI tutorials and interviews | Join 140K+ readers at https://t.co/XYKTmGVH14 | Product at Roblox",
-      "tweets": [
-        {
-          "id": "2038068968792162594",
-          "text": "I would really love to talk to @grok about all the posts I have bookmarked on here but am too lazy to scroll through manually. @elonmusk what do you think?",
-          "textZh": "Peter Yang 想用 Grok 自动整理他在 X 上收藏的帖子，但嫌手动翻找太麻烦——等待 Musk 或 X 团队实现这个功能。",
-          "url": "https://x.com/petergyang/status/2038068968792162594",
-          "likes": 84,
-          "retweets": 3,
-          "replies": 17
-        },
-        {
-          "id": "2038067082223554732",
-          "text": "X asking me to thumbs down my own reply 🥲. \n\nThis button should be visible for original posts too not just replies. I see alot of AI slop in my feed still. https://t.co/3y0KhuI0R1",
-          "textZh": "Peter Yang 吐槽 X 平台的「踩」按钮对原创帖子不可见，只能踩回复——认为这个设计缺陷导致 AI 垃圾内容难以被抑制。",
-          "url": "https://x.com/petergyang/status/2038067082223554732",
-          "likes": 61,
-          "retweets": 1,
-          "replies": 17
-        },
-        {
-          "id": "2038058600715935817",
-          "text": "Interesting to see how many fast growing companies like @linear and @tryramp want to hire ex-founders as PMs.\n\nI think this is a good litmus test for how good your company is at attracting talent:\n\n1. Do founders want to work here?\n\n2. Do they have the agency to make real impact or will they get lost in your org?",
-          "textZh": "Fast-growing 公司（Linear、Ramp）倾向招 ex-founders 做 PM，是人才吸引力的试金石——衡量标准：创始人愿不愿意来、来了有没有发挥空间。",
-          "url": "https://x.com/petergyang/status/2038058600715935817",
-          "likes": 73,
-          "retweets": 3,
-          "replies": 5
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nProduct at Roblox 的 Peter Yang 本周分享了三条观察，涵盖 AI 产品体验、内容治理和招聘理念三个维度。\n\n第一条是对 X/Grok 功能的 product request：他希望能用 Grok 来整理和回顾自己收藏的帖子（bookmarks），而不用手动翻找。这个需求非常具体且真实——高频用户的 bookmark 积累量极大，AI 驱动的个性化检索是 killer use case 之一。他直接 @ Elon Musk 表态，显然希望这个功能被优先考虑。\n\n第二条是关于 X 平台的 \"thumbs down\" 按钮。Peter 发现这个按钮目前只对回复显示，而原创推文没有——他觉得这不合理，希望平台能推广到所有内容类型，以帮助对抗 AI slop（AI 生成的垃圾内容）。这个观察很敏锐：用户对低质量内容的厌恶需要有出口，而 downvoting 是最直接的信号机制。\n\n第三条最有深度——他观察到 Linear 和 Ramp 这类快速增长的公司开始大量招募 ex-founders（曾经的创始人）担任 PM（产品经理）。他的核心论点是：这是检验公司吸引力的试金石，Founder-Grade 的 PM 意味着公司有足够的使命感和影响力，能让已经 \"做过主人\" 的人甘愿回来做执行者。他提出的两个关键问题是：创始人是否愿意在这里工作？他们是否有足够的自主权产生真正的impact，还是会淹没在大公司的组织层级里？这是一个关于 talent density 和 organizational design 的锐利洞察。原文链接：https://x.com/petergyang/status/2038058600715935817"
-    },
-    {
       "name": "Nan Yu",
       "handle": "thenanyu",
       "bio": "head of product @linear",
       "tweets": [
         {
-          "id": "2038025287955280120",
-          "text": "TED and 30u30 need to be taught in business schools as examples of complete brand self-destruction",
-          "textZh": "TED 大会和 Forbes 30 Under 30 成了品牌自我摧毁的典型案例——需要反思荣誉体系背后的代价。",
-          "url": "https://x.com/thenanyu/status/2038025287955280120",
-          "likes": 15,
-          "retweets": 1,
-          "replies": 0
-        },
-        {
-          "id": "2038021774105784782",
-          "text": "RETVRN (to Japan) https://t.co/R2Y9BFE5T8",
-          "textZh": "对 TED 和 Forbes 30u30 的品牌自毁分析持保留意见——这些平台在特定圈子里仍有真实价值。",
-          "url": "https://x.com/thenanyu/status/2038021774105784782",
-          "likes": 1,
+          "id": "2038602288957202941",
+          "text": "You hate (love?) to see it\n\nhttps://t.co/73ytWuZOK2",
+          "createdAt": "2026-03-30T13:00:35.000Z",
+          "url": "https://x.com/thenanyu/status/2038602288957202941",
+          "likes": 12,
           "retweets": 0,
-          "replies": 0
-        },
-        {
-          "id": "2038018254229094448",
-          "text": "Here we go\n\nhttps://t.co/UnraJZtyQm",
-          "textZh": "Linear 团队正在扩张，欢迎推荐优秀的 ex-founders 加入——Hiring 相关动态。",
-          "url": "https://x.com/thenanyu/status/2038018254229094448",
-          "likes": 1,
-          "retweets": 0,
-          "replies": 1
+          "replies": 2,
+          "isQuote": true
         }
-      ],
-      "summary": "【中文 remixed 摘要】\nLinear 的 Head of Product Nan Yu 发了三条短推文，主要都是关于他个人的动态。第一条语气最为犀利——他对 TED 大会和 Forbes 30 Under 30（30u30）这两个曾经极具公信力的品牌发表了 \"complete brand self-destruction\" 的严厉评价，具体背景虽未展开，但这句话的重量不容小觑：TED 近年因多起演讲者争议和内容质量问题被批评去精英化，30u30 的评选标准和公信力也备受质疑——两者都曾是 \"成就认证\" 的象征，如今却面临信任危机。\n\n另外两条推文比较 personal：一条是关于他去日本旅行（RETRVN to Japan），另一条是转发某个链接并配了简单的 \"Here we go\"。从 Linear 近年的产品节奏和行业影响力来看，Nan Yu 显然处于行业最前沿，他的个人动态也值得关注。原文链接：https://x.com/thenanyu/status/2038025287955280120"
+      ]
     },
     {
-      "name": "Amjad Masad",
-      "handle": "amasad",
-      "bio": "ceo @replit. civilizationist",
+      "name": "Claude",
+      "handle": "claudeai",
+      "bio": "Claude is an AI assistant built by @anthropicai to be safe, accurate, and secure. Talk to Claude on https://t.co/ZhTwG8d1e5 or download the app.",
       "tweets": [
         {
-          "id": "2038053670907007165",
-          "text": "Wow! https://t.co/bMcvHveKQP",
-          "textZh": "AI 让每个人都能构建应用，顶级工程师得以专注于更深层的系统设计，推动平台能力边界——这是「1000x 工程师」愿景的核心。",
-          "url": "https://x.com/amasad/status/2038053670907007165",
-          "likes": 327,
-          "retweets": 8,
-          "replies": 5
-        },
-        {
-          "id": "2037951485418344835",
-          "text": "AI enables everyone to build apps, which leaves the best engineers to focus a layer deeper and do more ambitious things to advance the platforms themselves and expand what’s possible.\n\nThis is what I meant when I started talking about “the 1000x engineer” four years ago. https://t.co/YxIHBRUSUJ https://t.co/76kBBvhilQ",
-          "textZh": "四年前提出的「1000x 工程师」概念正在成为现实——AI 消除了重复性工作，工程师做更多ambitious的事情来扩展平台可能性。",
-          "url": "https://x.com/amasad/status/2037951485418344835",
-          "likes": 365,
-          "retweets": 23,
-          "replies": 51
+          "id": "2038663014098899416",
+          "text": "Computer use is now in Claude Code.\n\nClaude can open your apps, click through your UI, and test what it built, right from the CLI.\n\nNow in research preview on Pro and Max plans. https://t.co/s2FDQaDmr1",
+          "createdAt": "2026-03-30T17:01:53.000Z",
+          "url": "https://x.com/claudeai/status/2038663014098899416",
+          "likes": 11545,
+          "retweets": 878,
+          "replies": 869,
+          "isQuote": false
         }
-      ],
-      "summary": "【中文 remixed 摘要】\nReplit CEO Amjad Masad 分享了两个关于 AI 与软件开发未来的重要思考。\n\n第一条是对某个 news/event 的简短反应（\"Wow!\"），配了一个链接，暗示行业发生了重大进展。\n\n第二条则更具理论高度。他重申了四年前提出的 \"1000x engineer\" 概念，并给出了更清晰的阐述：AI 的核心价值在于让每个人都能构建应用程序——这并不是说普通用户替代了工程师，而是把最优秀的工程师推向更高层次的抽象，让他们专注于更底层、更宏大的系统级工作，去拓展平台本身的能力边界。Replit 的核心逻辑正在于此：降低编程门槛 → 更多人参与 → 最优秀的工程师去做更根本的创新 → 平台能力边界扩大 → 循环加速。他明确指出这并不是替代关系，而是分层协作关系，human engineers 在 agent 时代的新定位是 \"the layer deeper\"。原文链接：https://x.com/amasad/status/2037951485418344835"
-    },
-    {
-      "name": "Guillermo Rauch",
-      "handle": "rauchg",
-      "bio": "@vercel CEO",
-      "tweets": [
-        {
-          "id": "2037993361450336714",
-          "text": "Vercel team left their mark on wonderful Arizona this week for our company offsite 🇺🇸😄 So excited to push the frontier with such amazing colleagues and friends https://t.co/pFY6gGYYrI",
-          "textZh": "Vercel 团队在亚利桑那州进行公司 offsite，留下美好回忆——团队建设和公司文化活动。",
-          "url": "https://x.com/rauchg/status/2037993361450336714",
-          "likes": 450,
-          "retweets": 9,
-          "replies": 29
-        },
-        {
-          "id": "2037950897909862526",
-          "text": "I can finally ship the text layout of my dreams https://t.co/feyBNQXxLS https://t.co/1ahZ7Sb8b8",
-          "textZh": "Rauch 终于发布了酝酿已久的 CSS text-wrap: balance 功能——困扰多年的文本布局问题终于解决。",
-          "url": "https://x.com/rauchg/status/2037950897909862526",
-          "likes": 2055,
-          "retweets": 51,
-          "replies": 56
-        },
-        {
-          "id": "2037935190073569326",
-          "text": "The n̶e̶t̶w̶o̶r̶k̶ agent is the computer",
-          "textZh": "「Agent 就是计算机，网络就是 OS」——Vercel 正在围绕这个愿景构建下一代开发工具。",
-          "url": "https://x.com/rauchg/status/2037935190073569326",
-          "likes": 141,
-          "retweets": 5,
-          "replies": 36
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nVercel CEO Guillermo Rauch 本周发了几条推文，透露出他正在推进几个重要方向。\n\n最重磅的是那条关于 CSS `text-wrap: balance` 的推文，获得了超过 2000 个点赞。他写道：\"I can finally ship the text layout of my dreams\"——终于可以交付他梦寐以求的文字排版了。这句话背后是多年的行业等待：`text-wrap: balance` 是 CSS 新规范，可以让浏览器自动对多行文本进行均衡排版（类似 Adobe InDesign 的 \"balance ragged edges\" 功能），告别传统左对齐文本最后一行参差不齐的问题。Rauch 把它说成是 \"the text layout of my dreams\"，语气真诚，既展现了前端工程的技术热情，也暗示 Vercel 即将把这个能力带给所有用户。\n\n另一条推文则更具哲学意味：\"The n̶e̶t̶w̶o̶r̶k̶ agent is the computer\" ——网络 agent 就是计算机。这是继 \"the network is the computer\"（Sun Microsystems 的经典口号）之后的又一次语言重构。Rauch 用删除线表达了一种动态演进：旧的范式（网络作为计算机）在被新的范式（agent 作为计算机）所取代——agent 不再只是网络的节点，而是具备自主计算和决策能力的智能体。他随后发了 Vercel 团队在 Arizona 的 offsite 照片，展现了公司文化和工作节奏。原文链接：https://x.com/rauchg/status/2037950897909862526"
-    },
-    {
-      "name": "Aaron Levie",
-      "handle": "levie",
-      "bio": "ceo @box - your business lives in content. unleash it with AI",
-      "tweets": [
-        {
-          "id": "2037928306977509601",
-          "text": "https://t.co/5zTvYqHztE",
-          "textZh": "Levie 发了一条无配文的链接推文，比较少见——考虑到 Box 在 AI 时代的内容管理战略，这可能是某个重要产品发布或合作公告。",
-          "url": "https://x.com/levie/status/2037928306977509601",
-          "likes": 377,
-          "retweets": 58,
-          "replies": 23
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nBox CEO Aaron Levie 发了一条只包含链接的推文，没有配任何文字。这在他的推文中比较少见——Levie 通常会附上观点或评论。考虑到他 \"your business lives in content. unleash it with AI\" 的个人简介，以及 Box 近期在 AI 内容管理方向的频繁动作，这个链接很可能指向 Box 的某个产品更新、财报相关内容或 AI 功能发布。原文链接：https://x.com/levie/status/2037928306977509601"
-    },
-    {
-      "name": "Garry Tan",
-      "handle": "garrytan",
-      "bio": "President & CEO @ycombinator —Founder @garryslist—Creator of GStack—designer/engineer who helps founders—SF Dem accelerating the boom loop",
-      "tweets": [
-        {
-          "id": "2038054087451885747",
-          "text": "After Richmond disabled its Flock cameras to \"protect immigrants,\" car thefts jumped 33%. \n\nImmigrant shopkeepers begged to bring them back. Last week their city council finally listened. \n\nOpposing safety cameras is a luxury belief. \n\nhttps://t.co/4BecRL4WTL",
-          "textZh": "Garry Tan 评论某城市移除摄像头以「保护移民」后盗窃案跳升33%——认为反对安全摄像头是「奢侈品信念」，只对特定阶层有好处。",
-          "url": "https://x.com/garrytan/status/2038054087451885747",
-          "likes": 935,
-          "retweets": 89,
-          "replies": 36
-        },
-        {
-          "id": "2037982376148734119",
-          "text": "Embrace boiling the ocean https://t.co/D2qbebbZK2",
-          "textZh": "GStack 持续增长——Y Combinator President Garry Tan 的 AI 产品路线正在获得越来越多独立开发者的采用。",
-          "url": "https://x.com/garrytan/status/2037982376148734119",
-          "likes": 138,
-          "retweets": 7,
-          "replies": 19
-        },
-        {
-          "id": "2037979742608253202",
-          "text": "GStack still growing every day. https://t.co/S9QUWdiSpD",
-          "textZh": "GStack 产品动态——作为 YC 掌门人的副业项目，GStack 展现了持续的增长势头。",
-          "url": "https://x.com/garrytan/status/2037979742608253202",
-          "likes": 222,
-          "retweets": 5,
-          "replies": 42
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nY Combinator President & CEO Garry Tan 本周延续他犀利的社会观察风格，发表了几条值得关注的推文。\n\n最有争议性的是那条关于 Richmond 市 Flock 摄像头的推文：该市以 \"保护移民\" 为由禁用了 Flock 摄像头系统，随后汽车盗窃案立刻跳升 33%。受害最深的是那些 immigrant shopkeepers（移民商家），他们反而是最强烈要求恢复摄像头的人群。Tan 的结论非常直接：\"Opposing safety cameras is a luxury belief\"——反对安全摄像头是一种「奢侈品信念」，只有当你自己不需要依赖公共安全系统时，才可能出于某种理念反对它。这条推文获得了近千次点赞，说明他的观点触动了相当广泛的共鸣。\n\n另一条是关于 \"Embrace boiling the ocean\"（拥抱煮沸海洋）的推文，并附了一篇文章链接。这是 YC 文化的核心哲学之一——与其小步试探不如全力投入，ambition 本身就是筛选标准。他的 GStack 产品据说仍在持续增长，这是他以 founder 身份做的 side project，现在已经成为一个有稳定用户的工具。Tan 作为 YC 的门面人物，持续在文化、招聘和技术哲学层面输出观点，影响着整个 startup 生态系统。原文链接：https://x.com/garrytan/status/2038054087451885747"
-    },
-    {
-      "name": "Zara Zhang",
-      "handle": "zarazhangrui",
-      "bio": "Builder. Dangerously skips permissions. Harvard’17. GitHub: https://t.co/KCuEajezlL YouTube: https://t.co/8xzbGWtf6w",
-      "tweets": [
-        {
-          "id": "2038144755478237654",
-          "text": "A good agent product should be able to do things that its creator did not think it could do\n\nFor internet-era products, you design all the functionalities and a \"good product\" works according to your expectations\n\nFor agent products, you unleash it and it surprises & delights you with things you didn't think were possible",
-          "textZh": "好 AI agent 产品应该能完成创造者未曾想到它能做到的事——这与过去「符合预期的产品」范式截然不同，是根本性转变。",
-          "url": "https://x.com/zarazhangrui/status/2038144755478237654",
-          "likes": 13,
-          "retweets": 0,
-          "replies": 5
-        },
-        {
-          "id": "2037983921946923034",
-          "text": "Human context window is the new wall https://t.co/FoUrRBTbEo",
-          "textZh": "人类 context window 是新瓶颈——AI 模型的能力上限，受限于人类能给出的上下文长度。",
-          "url": "https://x.com/zarazhangrui/status/2037983921946923034",
-          "likes": 53,
-          "retweets": 1,
-          "replies": 17
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nBuilder 和哈佛校友 Zara Zhang 分享了两个关于 AI 产品设计的深层思考。\n\n第一条更为重要——她提出了一个关于 AI agent 产品的新范式：好的 agent 产品应该能够做到它的创造者认为它做不到的事情。这与传统的 internet-era 产品设计哲学形成了鲜明对比：传统产品是 engineer 把所有功能都想清楚、设计好，用户按预期使用就是 \"good product\"；而 agent 产品是 unleash it（释放它），然后它会用出乎意料的方式给你惊喜——那些创造者本人根本没想过能实现的功能。\n\n第二条是对 \"Human context window is the new wall\" 的转发，配了 \"Human context window is the new wall\"（人类的 context window 就是新的墙）这个极具洞察力的类比。这是 AI 时代一个核心限制：LLM 的 context window 是技术约束，而人类的 context window（短时记忆容量、注意力持续时间）也是约束——当 AI 系统需要人类持续介入提供 context 时，人类就成为了 bottleneck。\"Human context window is the new wall\" 正在成为 AI 产品设计圈子里的一个流行语。原文链接：https://x.com/zarazhangrui/status/2038144755478237654"
-    },
-    {
-      "name": "Nikunj Kothari",
-      "handle": "nikunj",
-      "bio": "partner @fpvventures - investing in seed/A. previous: early hire @meter, @opendoor, @atlassian & others. love @shimoleejhaveri + 👦👧",
-      "tweets": [
-        {
-          "id": "2038123479355318775",
-          "text": "Always wanted to build my own version of this ad ✌️ https://t.co/JzymmuuTB1 https://t.co/nHcqXhbh3D",
-          "textZh": "Nikunj Kothari 分享了一张自己版本的经典广告，配文「一直想做这个」——创业者和投资人的日常灵感瞬间。",
-          "url": "https://x.com/nikunj/status/2038123479355318775",
-          "likes": 14,
-          "retweets": 0,
-          "replies": 0
-        },
-        {
-          "id": "2037990692530872359",
-          "text": "If you like Poker and have some time tomorrow in SF, you really don’t want to miss this..\n\nHosted by my dear friend @satyakamdar. DM him for an invite ♣️ https://t.co/do5fprnK4g",
-          "textZh": "如果有时间明天在旧金山，不要错过 poker 活动——Nikunj 发起的线下社交聚会，有兴趣可以 DM 要邀请。",
-          "url": "https://x.com/nikunj/status/2037990692530872359",
-          "likes": 26,
-          "retweets": 0,
-          "replies": 1
-        },
-        {
-          "id": "2037942421762478164",
-          "text": "Doubt anyone will take me up on this. \n\nIf you want to read about why incentives are not aligned to disclose properly and many many methods of creative accounting, wrote this post in December \n\nhttps://t.co/D892Xh1jvW https://t.co/iwIoxbviIQ",
-          "textZh": "关于激励结构和信息披露不透明的深度思考——Nikunj 认为激励机制没有对齐，需要创造性会计来处理这些复杂问题。",
-          "url": "https://x.com/nikunj/status/2037942421762478164",
-          "likes": 57,
-          "retweets": 1,
-          "replies": 3
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nFPV Ventures 合伙人 Nikunj Kothari 本周分享了几条不同调性的推文。\n\n第一条是一张他自己版本的经典广告，配文 \"Always wanted to build my own version of this ad\"，展现出投资人对好创意的敏感度和幽默感。\n\n第二条是关于旧金山一场扑克活动的信息——他热情推荐说如果有人在旧金山且明天有空，这是一场不可错过的活动，由他的朋友 Satya Kamdar 主持。这是一个典型的 GP（General Partner）社交行为，通过个人网络维护和 deal sourcing 之间的关系维护。\n\n第三条最值得注意：他以 VC 的视角写了一篇关于 incentives misalignment（激励机制错位）和 creative accounting（创造性会计）的长文，写于去年 12 月。他提到 \"Doubt anyone will take me up on this\"——怀疑没多少人会认真读——但这条推文本身就是一个 signal：VC 公开谈论被投公司的财务透明度问题，以及如何通过制度设计来揭露隐藏信息，这反映了当前一级市场对风控和信息披露的深层关注。原文链接：https://x.com/nikunj/status/2037942421762478164"
-    },
-    {
-      "name": "Peter Steinberger",
-      "handle": "steipete",
-      "bio": "Polyagentmorous ClawFather. Came back from retirement to mess with AI and help a lobster take over the world @openclaw🦞",
-      "tweets": [
-        {
-          "id": "2038074759527981416",
-          "text": "MCPorter (MCP-&gt;CLI)🧳0.8.0 is out.\n\n- stronger OAuth handling for servers\n- valid JSON output on fallback paths\n- better mcporter call behavior and error handling\n- generated CLIs handle object-valued args better\n- keep-alive/daemon reliability https://t.co/Nu9UOBxPam",
-          "textZh": "MCPorter 0.8.0 发布——更强 OAuth 处理、valid JSON fallback、改善的 CLI 调用行为和 keep-alive 可靠性。",
-          "url": "https://x.com/steipete/status/2038074759527981416",
-          "likes": 543,
-          "retweets": 41,
-          "replies": 23
-        },
-        {
-          "id": "2037988925818519763",
-          "text": "So much of this, every day. You really have to develop thick skin (exoskeleton?) when working on successful open source.\n\n(The Chrome extension has been removed since Google added native access in 144+, which is simpler, but yes, it does require a one-time setting change) https://t.co/N62y2XfaTW",
-          "textZh": "做成功的开源项目需要厚脸皮（exoskeleton）——来自 Chrome extension 因 Google 原生支持而被迫下架的经历。",
-          "url": "https://x.com/steipete/status/2037988925818519763",
-          "likes": 546,
-          "retweets": 20,
-          "replies": 100
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nPeter Steinberger（aka steipete）是 OpenClaw 的 ClawFather，本周他发布了 MCPorter（MCP->CLI）的 0.8.0 版本更新，这是他在 AI 工具链领域持续深耕的代表作。\n\nMCPorter 是一个将 MCP（Model Context Protocol）转换为本地 CLI 工具的项目，让开发者可以在终端里直接调用 AI 模型提供的能力。0.8.0 的更新亮点包括：更强健的 OAuth 处理（这对于需要认证的 MCP 服务器至关重要）、fallback 路径上的有效 JSON 输出（提升可靠性）、改进的 `mcporter call` 行为和错误处理，以及对象类型参数的更好支持，还有 keep-alive/daemon 可靠性提升。这些更新表明 MCPorter 正从一个实验性工具向生产级基础设施演进。\n\n另一条推文则是关于开源维护者心态的共鸣：大量日常的 issues、PRs 和用户反馈会持续消耗情绪，必须培养 thick skin（厚脸皮）。他以自己维护的开源项目为例，说明 Chrome 扩展曾因 Google 原生支持而被移除（Chromium 144+ 版本现已自带相关功能），但维护者需要承受用户的不理解和抱怨。这条推文获得了 546 个赞和 100 条回复，说明开发者社区对开源维护者处境的共情非常强烈——开源是数字世界的公共品，但维护者的 burnout 问题是真实且持续的。原文链接：https://x.com/steipete/status/2038074759527981416"
-    },
-    {
-      "name": "Dan Shipper",
-      "handle": "danshipper",
-      "bio": "ceo @every | the only subscription you need to stay at the edge of AI",
-      "tweets": [
-        {
-          "id": "2037897135543161326",
-          "text": "not surprising if you’re paying attention\n\nhttps://t.co/gxBaac30WG https://t.co/gHXEHjB4qS",
-          "textZh": "Dan Shipper 简短评论：「如果你在关注的话，这毫不意外」——暗示某个 AI 行业动态早已在预期之中。",
-          "url": "https://x.com/danshipper/status/2037897135543161326",
-          "likes": 49,
-          "retweets": 0,
-          "replies": 4
-        }
-      ],
-      "summary": "【中文 remixed 摘要】\nEvery CEO Dan Shipper 发了一条极其简短的推文：\"not surprising if you're paying attention\"，并附了两个链接指向同一内容。这是一种典型的 newsletter writer 风格——他知道受众中相当一部分人会直接点击链接，而另一部分人需要标题来勾起好奇心。他对 AI 领域的变化保持了持续的高频输出，Every 作为一个 AI 新闻订阅产品的定位，决定了 Shipper 必须始终站在信息差的最前沿。这条推文的克制和自信，恰恰是内容创作者该有的风格：话不用说满，懂的人自然懂。原文链接：https://x.com/danshipper/status/2037897135543161326"
+      ]
     }
   ],
-  "podcasts": [],
+  "podcasts": [
+    {
+      "name": "AI & I by Every",
+      "title": "Building Is the Easy Part Now | Mike Krieger on What AI Changed",
+      "url": "https://youtube.com/watch?v=KRv9GpJYrUA",
+      "description": ""
+    }
+  ],
   "stats": {
-    "totalTweets": 27,
-    "totalBuilders": 13,
-    "totalPodcasts": 0
+    "totalTweets": 2,
+    "totalBuilders": 2,
+    "totalPodcasts": 1,
+    "feedGeneratedAt": "2026-03-30T17:54:41.398Z"
   }
 }
